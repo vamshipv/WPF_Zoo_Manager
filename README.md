@@ -1,3 +1,3 @@
 # WPF Zoo Manager
 
-Basic Update and Delete Functions using WPF UI FrameWork
+Basic Create, Update and Delete Functions using WPF UI FrameWork.
