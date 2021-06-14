@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
+using System.Drawing;
 
 namespace WPF_Zoo_Manager
 {
@@ -131,6 +132,7 @@ namespace WPF_Zoo_Manager
         {
             try
             {
+                //Button4.BackColor = Color.LawnGreen;
                 string query = "delete from Zoo where Id = @zooId";
 
                 SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
